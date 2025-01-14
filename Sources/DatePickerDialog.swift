@@ -14,7 +14,7 @@ open class DatePickerDialog: UIView {
     private let kDefaultButtonSpacerHeight: CGFloat = 1
     private let kCornerRadius: CGFloat = 7
     private let kDoneButtonTag: Int = 1
-    private let kDialogWidth = 300.0
+    private let kDialogWidth = 320.0
     private let kDialogHeight = 230.0
 
     // MARK: - Views
@@ -230,7 +230,7 @@ open class DatePickerDialog: UIView {
         container.addSubview(lineView)
 
         //Title
-        self.titleLabel = UILabel(frame: CGRect(x: 10, y: 10, width: 280, height: 30))
+        self.titleLabel = UILabel(frame: CGRect(x: 20, y: 10, width: 280, height: 30))
         self.titleLabel.textAlignment = .center
         self.titleLabel.textColor = self.textColor
         self.titleLabel.font = self.font.withSize(17)
